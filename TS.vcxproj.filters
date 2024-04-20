@@ -36,6 +36,24 @@
     <ClInclude Include="libs\include\wglew.h">
       <Filter>libs\include</Filter>
     </ClInclude>
+    <ClInclude Include="include\meshes.h" />
+    <ClInclude Include="include\shaders.h" />
+    <ClInclude Include="include\shader_templates.h" />
+    <ClInclude Include="include\sprite.h" />
+    <ClInclude Include="include\TS.h" />
+    <ClInclude Include="include\TS_class.h" />
+    <ClInclude Include="include\defines.h" />
+    <ClInclude Include="include\ui.h" />
+    <ClInclude Include="libs\include\ImGUI\imgui_impl_glfw.h" />
+    <ClInclude Include="libs\include\ImGUI\imgui_impl_opengl3.h" />
+    <ClInclude Include="libs\include\ImGUI\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="libs\include\ImGUI\imconfig.h" />
+    <ClInclude Include="libs\include\ImGUI\imgui.h" />
+    <ClInclude Include="libs\include\ImGUI\imgui_internal.h" />
+    <ClInclude Include="libs\include\ImGUI\imstb_rectpack.h" />
+    <ClInclude Include="libs\include\ImGUI\imstb_textedit.h" />
+    <ClInclude Include="libs\include\ImGUI\imstb_truetype.h" />
+    <ClInclude Include="include\menubar.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -44,5 +62,15 @@
     <ClCompile Include="src\misc.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\TS.cpp" />
+    <ClCompile Include="src\sprite.cpp" />
+    <ClCompile Include="libs\include\ImGUI\imgui_impl_glfw.cpp" />
+    <ClCompile Include="libs\include\ImGUI\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="src\ui.cpp" />
+    <ClCompile Include="libs\include\ImGUI\imgui.cpp" />
+    <ClCompile Include="libs\include\ImGUI\imgui_demo.cpp" />
+    <ClCompile Include="libs\include\ImGUI\imgui_draw.cpp" />
+    <ClCompile Include="libs\include\ImGUI\imgui_tables.cpp" />
+    <ClCompile Include="libs\include\ImGUI\imgui_widgets.cpp" />
   </ItemGroup>
 </Project>
