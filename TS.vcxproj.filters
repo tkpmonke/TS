@@ -10,13 +10,79 @@
     <Filter Include="libs\include">
       <UniqueIdentifier>{A2FAD38C-8E5D-6331-37E3-9BE723252FB4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="libs\include\ImGUI">
+      <UniqueIdentifier>{0C5DCA27-F840-8B7D-61A1-85D04DA475FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\include\glm">
+      <UniqueIdentifier>{F105D075-DDFE-EEC7-0631-D44CF288CED3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\include\glm\detail">
+      <UniqueIdentifier>{93C48B91-FFFB-D328-0806-384C74BCFA21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\include\glm\simd">
+      <UniqueIdentifier>{EDC05977-592D-1572-2221-ADCF8E4C37DA}</UniqueIdentifier>
+    </Filter>
     <Filter Include="src">
       <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\TS.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TS_class.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\defines.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\menubar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\meshes.h">
+      <Filter>include</Filter>
+    </ClInclude>
     <ClInclude Include="include\misc.h">
       <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shader_templates.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shaders.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\include\ImGUI\imconfig.h">
+      <Filter>libs\include\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\include\ImGUI\imgui.h">
+      <Filter>libs\include\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\include\ImGUI\imgui_impl_glfw.h">
+      <Filter>libs\include\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\include\ImGUI\imgui_impl_opengl3.h">
+      <Filter>libs\include\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\include\ImGUI\imgui_impl_opengl3_loader.h">
+      <Filter>libs\include\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\include\ImGUI\imgui_internal.h">
+      <Filter>libs\include\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\include\ImGUI\imstb_rectpack.h">
+      <Filter>libs\include\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\include\ImGUI\imstb_textedit.h">
+      <Filter>libs\include\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\include\ImGUI\imstb_truetype.h">
+      <Filter>libs\include\ImGUI</Filter>
     </ClInclude>
     <ClInclude Include="libs\include\eglew.h">
       <Filter>libs\include</Filter>
@@ -30,47 +96,88 @@
     <ClInclude Include="libs\include\glfw3native.h">
       <Filter>libs\include</Filter>
     </ClInclude>
+    <ClInclude Include="libs\include\glm\simd\common.h">
+      <Filter>libs\include\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\include\glm\simd\exponential.h">
+      <Filter>libs\include\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\include\glm\simd\geometric.h">
+      <Filter>libs\include\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\include\glm\simd\integer.h">
+      <Filter>libs\include\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\include\glm\simd\matrix.h">
+      <Filter>libs\include\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\include\glm\simd\neon.h">
+      <Filter>libs\include\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\include\glm\simd\packing.h">
+      <Filter>libs\include\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\include\glm\simd\platform.h">
+      <Filter>libs\include\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\include\glm\simd\trigonometric.h">
+      <Filter>libs\include\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\include\glm\simd\vector_relational.h">
+      <Filter>libs\include\glm\simd</Filter>
+    </ClInclude>
     <ClInclude Include="libs\include\glxew.h">
+      <Filter>libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\include\stb_image.h">
       <Filter>libs\include</Filter>
     </ClInclude>
     <ClInclude Include="libs\include\wglew.h">
       <Filter>libs\include</Filter>
     </ClInclude>
-    <ClInclude Include="include\meshes.h" />
-    <ClInclude Include="include\shaders.h" />
-    <ClInclude Include="include\shader_templates.h" />
-    <ClInclude Include="include\sprite.h" />
-    <ClInclude Include="include\TS.h" />
-    <ClInclude Include="include\TS_class.h" />
-    <ClInclude Include="include\defines.h" />
-    <ClInclude Include="include\ui.h" />
-    <ClInclude Include="libs\include\ImGUI\imgui_impl_glfw.h" />
-    <ClInclude Include="libs\include\ImGUI\imgui_impl_opengl3.h" />
-    <ClInclude Include="libs\include\ImGUI\imgui_impl_opengl3_loader.h" />
-    <ClInclude Include="libs\include\ImGUI\imconfig.h" />
-    <ClInclude Include="libs\include\ImGUI\imgui.h" />
-    <ClInclude Include="libs\include\ImGUI\imgui_internal.h" />
-    <ClInclude Include="libs\include\ImGUI\imstb_rectpack.h" />
-    <ClInclude Include="libs\include\ImGUI\imstb_textedit.h" />
-    <ClInclude Include="libs\include\ImGUI\imstb_truetype.h" />
-    <ClInclude Include="include\menubar.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="libs\include\ImGUI\imgui.cpp">
+      <Filter>libs\include\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\include\ImGUI\imgui_demo.cpp">
+      <Filter>libs\include\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\include\ImGUI\imgui_draw.cpp">
+      <Filter>libs\include\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\include\ImGUI\imgui_impl_glfw.cpp">
+      <Filter>libs\include\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\include\ImGUI\imgui_impl_opengl3.cpp">
+      <Filter>libs\include\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\include\ImGUI\imgui_tables.cpp">
+      <Filter>libs\include\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\include\ImGUI\imgui_widgets.cpp">
+      <Filter>libs\include\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\include\glm\detail\glm.cpp">
+      <Filter>libs\include\glm\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\include\glm\glm.cppm">
+      <Filter>libs\include\glm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TS.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
     <ClCompile Include="src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="src\misc.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="src\TS.cpp" />
-    <ClCompile Include="src\sprite.cpp" />
-    <ClCompile Include="libs\include\ImGUI\imgui_impl_glfw.cpp" />
-    <ClCompile Include="libs\include\ImGUI\imgui_impl_opengl3.cpp" />
-    <ClCompile Include="src\ui.cpp" />
-    <ClCompile Include="libs\include\ImGUI\imgui.cpp" />
-    <ClCompile Include="libs\include\ImGUI\imgui_demo.cpp" />
-    <ClCompile Include="libs\include\ImGUI\imgui_draw.cpp" />
-    <ClCompile Include="libs\include\ImGUI\imgui_tables.cpp" />
-    <ClCompile Include="libs\include\ImGUI\imgui_widgets.cpp" />
+    <ClCompile Include="src\sprite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

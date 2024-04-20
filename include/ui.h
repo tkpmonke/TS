@@ -11,7 +11,6 @@
 						ImGui::Button("Button??? is this working???");			\
 						x->EndTab();
 
-
 class UI {
 public:
 	UI(GLFWwindow* t);

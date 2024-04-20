@@ -53,5 +53,6 @@ private:
 class Sprites {
 public:
 	std::vector<Sprite> sprites;
+	int current_sprite_selected = -1;
 	operator std::vector<Sprite>() const { return sprites; }
 };

@@ -72,16 +72,17 @@ int main()
 
         t.Begin(0.2f, 0.3f, 1, 1);
         sprite.Begin(&t);
-        shader.SetValue((float)glfwGetTime(), "time");
         sprite.Render(&t);
-
 
         ui.NewFrame();
         ImGui::PushFont(font);
+
         RenderEditor(&ui, &t, &sprites, &move);
+
+        FpsCounter(&ui);
+
         ImGui::PopFont();
         ui.Render();
-
         t.End();
 	}
 

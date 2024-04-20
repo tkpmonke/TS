@@ -90,21 +90,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="include\TS.h" />
+    <ClInclude Include="include\TS_class.h" />
     <ClInclude Include="include\defines.h" />
     <ClInclude Include="include\menubar.h" />
     <ClInclude Include="include\meshes.h" />
-    <ClInclude Include="include\shaders.h" />
     <ClInclude Include="include\misc.h" />
     <ClInclude Include="include\shader_templates.h" />
+    <ClInclude Include="include\shaders.h" />
     <ClInclude Include="include\sprite.h" />
-    <ClInclude Include="include\TS.h" />
-    <ClInclude Include="include\TS_class.h" />
     <ClInclude Include="include\ui.h" />
-    <ClInclude Include="libs\include\eglew.h" />
-    <ClInclude Include="libs\include\glew.h" />
-    <ClInclude Include="libs\include\glfw3.h" />
-    <ClInclude Include="libs\include\glfw3native.h" />
-    <ClInclude Include="libs\include\glxew.h" />
     <ClInclude Include="libs\include\ImGUI\imconfig.h" />
     <ClInclude Include="libs\include\ImGUI\imgui.h" />
     <ClInclude Include="libs\include\ImGUI\imgui_impl_glfw.h" />
@@ -114,6 +109,22 @@
     <ClInclude Include="libs\include\ImGUI\imstb_rectpack.h" />
     <ClInclude Include="libs\include\ImGUI\imstb_textedit.h" />
     <ClInclude Include="libs\include\ImGUI\imstb_truetype.h" />
+    <ClInclude Include="libs\include\eglew.h" />
+    <ClInclude Include="libs\include\glew.h" />
+    <ClInclude Include="libs\include\glfw3.h" />
+    <ClInclude Include="libs\include\glfw3native.h" />
+    <ClInclude Include="libs\include\glm\simd\common.h" />
+    <ClInclude Include="libs\include\glm\simd\exponential.h" />
+    <ClInclude Include="libs\include\glm\simd\geometric.h" />
+    <ClInclude Include="libs\include\glm\simd\integer.h" />
+    <ClInclude Include="libs\include\glm\simd\matrix.h" />
+    <ClInclude Include="libs\include\glm\simd\neon.h" />
+    <ClInclude Include="libs\include\glm\simd\packing.h" />
+    <ClInclude Include="libs\include\glm\simd\platform.h" />
+    <ClInclude Include="libs\include\glm\simd\trigonometric.h" />
+    <ClInclude Include="libs\include\glm\simd\vector_relational.h" />
+    <ClInclude Include="libs\include\glxew.h" />
+    <ClInclude Include="libs\include\stb_image.h" />
     <ClInclude Include="libs\include\wglew.h" />
   </ItemGroup>
   <ItemGroup>
@@ -124,10 +135,10 @@
     <ClCompile Include="libs\include\ImGUI\imgui_impl_opengl3.cpp" />
     <ClCompile Include="libs\include\ImGUI\imgui_tables.cpp" />
     <ClCompile Include="libs\include\ImGUI\imgui_widgets.cpp" />
+    <ClCompile Include="src\TS.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\misc.cpp" />
     <ClCompile Include="src\sprite.cpp" />
-    <ClCompile Include="src\TS.cpp" />
     <ClCompile Include="src\ui.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
