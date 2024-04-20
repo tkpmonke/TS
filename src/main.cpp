@@ -51,8 +51,8 @@ int main()
 
     Shader shader = Shader((char*)vert_2D, (char*)frag_unlit);
 
-    Texture texture = Texture("./Assets/test.png");
-    Texture move = Texture("./Assets/move.png");
+    Texture texture = Texture("./Assets/Textures/test.png");
+    Texture move = Texture("./Assets/UI/move.png");
     texture.SetTextureMode(TS_NEAREST);
 
     Sprite sprite = Sprite(&texture, &shader, "Sprite");
@@ -64,10 +64,7 @@ int main()
     UI ui = UI(t.window);
 
     ImGuiIO& io = ImGui::GetIO();
-    ImFont* font = io.Fonts->AddFontFromFileTTF("default.ttf", 20);
-
-    TS_PRINT(texture.glLocation);
-    TS_PRINT(move.glLocation);
+    ImFont* font = io.Fonts->AddFontFromFileTTF("./Assets/UI/default.ttf", 20);
 
 	while (!glfwWindowShouldClose(t.window))
 	{
